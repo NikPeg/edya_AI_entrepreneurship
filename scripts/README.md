@@ -4,6 +4,29 @@
 
 ## Доступные скрипты
 
+### pptx_to_txt.py
+Извлечение текста из PowerPoint презентаций (PPTX).
+
+**Использование:**
+```bash
+python scripts/pptx_to_txt.py <путь_к_pptx> [путь_к_txt]
+```
+
+**Примеры:**
+```bash
+# Базовое использование
+python scripts/pptx_to_txt.py homework/homework_1/presentation.pptx
+
+# С указанием выходного файла
+python scripts/pptx_to_txt.py homework/homework_1/presentation.pptx output.txt
+```
+
+**Особенности:**
+- Быстрый и надежный
+- Извлекает весь текст из всех слайдов
+- Сохраняет структуру по слайдам
+- Не требует дополнительных системных зависимостей
+
 ### pdf_to_txt.py
 Простое извлечение текста из PDF файлов.
 
